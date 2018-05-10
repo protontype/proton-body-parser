@@ -1,0 +1,31 @@
+{
+  "name": "proton-body-parser",
+  "version": "0.1.2",
+  "description": "Express body-parser middleware for Protontype",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/protontype/proton-body-parser.git"
+  },
+  "keywords": [
+    "protontype",
+    "nodejs",
+    "body-parser",
+    "express",
+    "rest"
+  ],
+  "author": "Humberto Machado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/protontype/proton-body-parser/issues"
+  },
+  "homepage": "https://github.com/protontype/proton-body-parser#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "protontype": "^2.3.4"
+  }
+}
