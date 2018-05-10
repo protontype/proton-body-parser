@@ -8,13 +8,12 @@ This module wraps [body-parser](https://github.com/expressjs/body-parser) Nodejs
 - **JsonBodyParserMiddleware**: Equivalent to [JSON body parser](https://github.com/expressjs/body-parser/blob/master/README.md#bodyparserjsonoptions)
 - **RawBodyParserMiddleware**: Equivalent to [Raw body parser](https://github.com/expressjs/body-parser/blob/master/README.md#bodyparserrawoptions)
 - **TextBodyParserMiddleware**: Equivalent to [Text body parser](https://github.com/expressjs/body-parser/blob/master/README.md#bodyparsertextoptions)
-- **UrlBodyParserMiddleware **: Equivalent to [URL-encoded form body parser](https://github.com/expressjs/body-parser/blob/master/README.md#bodyparserurlencodedoptions)
+- **UrlBodyParserMiddleware**: Equivalent to [URL-encoded form body parser](https://github.com/expressjs/body-parser/blob/master/README.md#bodyparserurlencodedoptions)
 
 ### How to Use
 
 ```typescript
-let middleware = new JsonBodyParserMiddleware();
-let app = new ProtonApplication().addMiddleware(middleware)
+let app = new ProtonApplication().addMiddlewareAs(JsonBodyParserMiddleware)
 app.start();
 ```
 
