@@ -1,7 +1,7 @@
-import { ProtonMiddleware, MiddlewareFunctionParams, Middleware } from 'protontype';
+import { BaseMiddleware, MiddlewareFunctionParams, Middleware } from 'protontype';
 import bodyParser from 'body-parser';
 
-export class URLBodyParserMiddleware extends ProtonMiddleware {
+export class URLBodyParserMiddleware extends BaseMiddleware {
     constructor(private options?: {}) {
         super();
     }

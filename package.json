@@ -27,5 +27,8 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "protontype": "^2.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.1"
   }
 }
