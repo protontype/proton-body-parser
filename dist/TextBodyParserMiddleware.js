@@ -10,11 +10,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
-}
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const protontype_1 = require("protontype");
 const body_parser_1 = __importDefault(require("body-parser"));
-class TextBodyParserMiddleware extends protontype_1.ProtonMiddleware {
+class TextBodyParserMiddleware extends protontype_1.BaseMiddleware {
     constructor(options) {
         super();
         this.options = options;
